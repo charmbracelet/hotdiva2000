@@ -1,0 +1,910 @@
+1-Star
+180 BPM
+1940s-style
+1970s
+1990s
+2-Star
+256-color
+3-Star
+4-Star
+5G LTE
+8-bit
+80s-style
+AES-Encrypted
+AI
+AR-first
+Abandoned
+Absolute
+Academic
+Ad-hoc-polymorphic
+Age-defying
+Air-conditioned
+Air-cooled
+All-knowing
+All-natural
+All-seeing
+Alluring
+Almost-human
+Almost-new
+Alternative
+Always-optimistic
+Amateur
+American
+Analog
+Ancient
+Angelic
+Angry
+Animal-like
+Anime-style
+Anti-bacterial
+Applicative
+Apres Ski
+Arch-Linux-based
+Arch-Linux-like
+Arguably-bad
+Arguably-good
+Arguably-the-best
+Army-surplus
+Artificial
+Artificially Intelligent
+Aspirational
+Astute
+Asynchronous
+Auto-tuned
+Award-winning
+Awesome
+Awkward
+BSD-based
+BSD-licensed
+BSD-like
+Baby-like
+Bachelor-like
+Backend
+Baked
+Base64
+Base64-encoded
+Bavarian
+Beach Party
+Beach-ready
+Beastly
+Beautiful
+Beefy
+Beer-battered
+Beer-fueled
+Berlin-style
+Bi-coastal
+Big
+Big Data
+Big Ol
+Big Time
+Bird-like
+Biweekly
+Black-hat
+Blatant
+Blatantly Illegal
+Blatantly Offensive
+Blatantly Unethical
+Bleak
+Bleeding-edge
+Blessed
+Bloated
+Bloody
+Blue Chip
+Body Art
+Bonus
+Bossy
+Brand New
+Bratty
+Brave
+Breathtaking
+Broke down
+Broken
+Brooklyn-based
+Bruised
+Brushed Metal
+Brutally-accurate
+Brutally-honest
+Bubbly
+Buff
+Burnt
+Burnt Out
+Business
+Business Casual
+Business Class
+Business-certified
+Business-like
+Business-optimized
+Business-ready
+Buttery
+Cable Management
+Caffeinated
+Caffeine-free
+Californian
+Capitalist
+Captivating
+Caramel
+Caramel-covered
+Carbonated
+Cashmere
+Cat-like
+Chain-smoking
+Champagne-worthy
+Championship
+Charred
+Cherry MX Blue
+Cherry MX Brown
+Child-like
+Chillwave
+Chocolate
+Chocolate-covered
+Chonky
+Chonky-animal-like
+Chubby
+Clacky
+Clandestine
+Classical
+Classy
+Clean
+Closed-source
+Cloud-based
+Cloud-native
+Cloud-optimized
+Cloud-ready
+Club Scene
+Club-ready
+Code-slinging
+Cold
+Collectible
+College-based
+College-level
+College-ready
+Commented-out
+Common
+Communist
+Complete
+Completely-saturated
+Composable
+Compostable
+Computational
+Conservative
+Container-based
+Corporate
+Cosplay
+Cost-effective
+Cost-efficient
+Cracked
+Criminal
+Critically-acclaimed
+Cross-compiled
+Cross-platform
+Cross-promotional
+Crude
+Crypto
+Crypto-like
+Cryptographic
+Cuddly
+Cursed
+Customer-centric
+Customer-driven
+Customer-focused
+Cute
+Cute Little
+Cyber
+Damaged
+Dangeously Cute
+Dangerous
+Dangerously Good
+Dangerously Hot
+Dank
+Darling
+Data-driven
+De-facto
+Deadly
+Death Metal
+Deep
+Deep Fried
+Deep House
+Deeply Beautiful
+Deeply Discounted
+Deeply Inspiring
+Deeply Meaningful
+Definitely Cute
+Definitely Hot
+Definitely Teenage
+Delectable
+Delicious
+Delightful
+Dependently-typed
+Depraved
+Deprecated
+Desirable
+Deterministic
+DevOps
+Diamond-encrusted
+Die-hard
+Digital
+Digtally-native
+Dirty
+Disco
+Disco-era
+Discontinued
+Discounted
+Dishwasher-safe
+Disposable
+Distasteful
+Distracting
+Disturbing
+Dog-friendly
+Dog-like
+Dolphin-like
+Downloadable
+Drag
+Dramatic
+Driver-tested
+Drunk
+Dubstep
+Dungeon-like
+Dust-covered
+Dwarvish
+Dynamically-typed
+Dystopian
+EDM
+Early 2000s
+Easy Mode
+Economically
+Economy Class
+Edwardian
+Eighties
+Eighties-style
+Elegant
+Elvish
+Emmy-award-winning
+Emo
+Emotional
+Encrypted
+English
+Enormous
+Enraptured
+Enticing
+Entire
+Entitled
+Entrepreneurial
+Espresso-powered
+Ethical
+European
+Eurovision
+Exciting
+Exotic
+Expensive
+Expressive
+Exquisite
+Extremely-talented
+Fact-based
+Fake-diamond-encrusted
+Fashion
+Fashion-forward
+Fast and Loose
+Fast-food-style
+Federal
+Federally-controlled
+Federally-funded
+Federally-owned
+Feral
+Ferocious
+Fever-ridden
+Film-like
+Filthy
+Finance-driven
+Fine Imported
+First Class
+First Generation
+First-class
+Flammable
+Flirty
+For-pay
+For-profit
+Forgotten
+Formerly Cursed
+Forthcoming
+Free
+FreeBSD
+Fried
+Friend-zoned
+Friendly
+Frog-like
+Frontend
+Frozen
+Frustrated
+Fully-financed
+Functional
+Funky
+Furry
+GPU-powered
+GTK
+Gas-powered
+Generic
+Gentle
+Glamourous
+Glittery
+Global
+Gnarly
+Gnomish
+GnuPG
+Gold-plated
+Golden
+Gorgeous
+Gossipy
+Goth
+Government-adjacent
+Government-like
+Grammy-award-winning
+Grossly-overestimated
+Grossly-underestimated
+Grossly-undervalued
+Growth-oriented
+Gruesome
+Hairy
+Hand-coded
+Handcrafted
+Handsome
+Hard Mode
+Hard-coded
+Heartbroken
+Heartfelt
+Heavily Caffeinated
+Heavily-fried
+Helpful
+Hen-like
+High Brow
+High Fashion
+High-class
+High-fidelity
+High-quality
+Higher-order
+Highly-academic
+Highly-adaptive
+Highly-advanced
+Highly-competitive
+Highly-corporate
+Highly-desirable
+Highly-emotional
+Highly-ethical
+Highly-flammable
+Highly-inappropriate
+Highly-offensive
+Highly-questionable
+Highly-requested
+Highly-sought-after
+Highly-suspect
+Highly-talented
+Hollywood-esque
+Home-cooked
+Home-grown
+Horrible
+Hostile
+Hot
+Hot and Bothered
+Hot and Heavy
+Hot and Steamy
+House Music
+Huge
+Humid
+Hungry
+Hunky
+Hyper-masculine
+Hypothetical
+Icy
+Illegal
+Illegally Imported
+Imaginary
+Imported
+In-memory
+Inappropriate
+Industrial-grade
+Insatiable
+Insatiably Hot
+Inspiring
+Intentional
+Interim
+International
+Intoxicated
+Intoxicating
+Invigorating
+Iron-clad
+Ivy League
+Jacked
+Java-like
+Jealous
+Juicy
+KDE
+KPI-driven
+Killer
+Kinda Bad
+Large
+Large and In-charge
+Late 2000s
+Law-abiding
+Lawless
+Leaked
+Leather
+Leather-bound
+Legally Imported
+Legendarily Bad
+Legendary
+Lemon-scented
+Leopard-spotted
+Liberal
+Lifelike
+Lightly Toasted
+Lightly-used
+Linux-based
+Linux-style
+Lisp-like
+Lizard-like
+Local
+Locally-imported
+Locally-sourced
+London-based
+Long-awaited
+Lost
+Low Brow
+Low-class
+Low-quality
+Loyal
+Luscious
+MIT-licensed
+Machiavellian
+Machine Learning
+Machine-like
+Magic
+Magical
+Main
+Mainstream
+Majestic
+Marauding
+Mass-produced
+Massive
+Massively-multiplayer
+Meaningless
+Meaty
+Medieval
+Medium-quality
+Medium-rare
+Melancholy
+Melted
+Melting
+Meme-compliant
+Meme-worthy
+Mid-Eighties
+Mighty
+Mighty Fine
+Milan-fashion
+Mild-mannered
+Mildly Offensive
+Mildly-Dramatic
+Mildly-illegal
+Mildly-inappropriate
+Mildly-jealous
+Mildly-talented
+Mildly-tarnished
+Millennium
+Minimal
+Misconstrued
+Mixed Martial
+Moderately wealthy
+Moderately-talented
+Monadic
+Monstrous
+Monthly
+Mostly Impossible
+Mostly New
+Mother-approved
+Multi-purpose
+Multi-threaded
+Multi-use
+Multilingual
+Muscular
+Musical
+Mystical
+Nail Art
+National
+Natural
+Network-based
+New Orleans
+New Wave
+Nice-smelling
+Nineties
+Nix-based
+Non-Carbonated
+Non-deterministic
+Non-fungible
+Non-refundable
+Non-smoking
+Non-technical
+Non-toxic
+Non-violent
+North American
+Not Cute
+Null
+Numbers-driven
+OKR-driven
+Odd
+Off-Broadway
+Off-the-grid
+Off-the-record
+Offensive
+Official
+Oil-laden
+Olive-scented
+Online
+Open-source
+OpenSSH
+Opulent
+Orcish
+Orthodox
+Out-of-tune
+Oven-fresh
+Overclocked
+Overestimated
+Overly-Dramatic
+Overly-dramatic
+Overpaid
+Overpriced
+Overrated
+Oversized
+Oversold
+Overworked
+PCI-compliant
+Panther-like
+Parenthetical
+Paris-based
+Parisian-runway
+Parliamentary
+Passionate
+Password Protected
+Perfect
+Perfectly-tailored
+Performance-based
+Performance-driven
+Permanent
+PhD-level
+Photogenic
+Pig-like
+Pink
+Plant-based
+Plant-like
+Playful
+Pleasurable
+Plump
+Police State
+Polymorphic
+Poolside
+Poorly-translated
+Postmodern
+Potential
+Pre-Linux
+Premium
+Pretend
+Pretty Cute
+Pretty Hot
+Pretty Large
+Pretty Small
+Primary
+Primordial
+Pristine
+Private
+Privately-controlled
+Privately-funded
+Privately-held
+Privately-owned
+Processed
+Professional
+Proper
+Proven
+Public
+Puppy-like
+Pure
+Questionable
+Radiant
+Rare
+Rat-like
+Rather Banal
+Rather Daft
+Rather dull
+Ravishing
+Raw
+Ready-to-wear
+Real
+Recursive
+Red-hot
+Rediscovered
+Refined
+Refundable
+Refurbished
+Regretful
+Renaissance-era
+Results-driven
+Retired
+Reusable
+Ripped
+Roman
+Romantic
+Rotisserie
+Rough and Ready
+Royal
+Ruby-lined
+Runic
+Runway-ready
+Sacred
+Sad
+Sailor-like
+Sales-driven
+Sales-ready
+Salty
+Sandboxed
+Sapphire-studded
+Sassy
+Saturated
+Saturday Night
+Scantily-clad
+Seasonal
+Second Generation
+Secret
+Secure
+Seductively Hot
+Self-aware
+Self-deprecating
+Self-driving
+Self-funded
+Self-hosted
+Self-published
+Self-taught
+Semi-automated
+Semi-clad
+Semi-corporate
+Semi-distracting
+Semi-disturbing
+Semi-established
+Semi-feral
+Semi-formal
+Semi-friendly
+Semi-functional
+Semi-global
+Semi-goth
+Semi-hot
+Semi-inappropriate
+Semi-jealous
+Semi-legal
+Semi-loyal
+Semi-normal
+Semi-offensive
+Semi-permanent
+Semi-precious
+Semi-professional
+Semi-retired
+Semi-reusable
+Semi-sarcastic
+Semi-secret
+Semi-secure
+Semi-standard
+Semi-sweet
+Semi-talented
+Semi-technical
+Semi-transactional
+Semi-untalented
+Semi-used
+Sensual
+Sensuous
+Seriously Ripped
+Seventies
+Shy
+Silent
+Silicon-valley-esque
+Silky
+Silver
+Simply Delicious
+Simply Gorgeous
+Single Use
+Slang
+Slick
+Slimy
+Small Time
+Small-business
+Smoking
+Smoldering
+Snake-like
+Snakelike
+Social Media
+Social-ready
+Socialist
+Socially-acceptable
+Soft
+Solaris
+Somewhat-disposable
+Soothing
+Southern
+Soviet
+Sparkly
+Special
+Spendthrift
+Spicy
+Spoiled
+Stale
+Star-crossed
+Star-spangled
+Star-studded
+State-controlled
+State-funded
+State-level
+State-owned
+State-subsidized
+Statically-type
+Steamy
+Stone
+Stunning
+Substantial
+Sugary
+Suggestive
+Sultry
+Super Cute
+Sweaty
+Sweet
+Sweet and Sour
+Systemd-enabled
+Table-like
+Tail-call-optimized
+Tailor-made
+Talented
+Tangentially Related
+Tangentially-appropriate
+Tangible
+Tarnished
+Tasty
+Teenage
+Temporary
+Tenacious
+Terminal-based
+Territorial
+Test-driven
+Texas-style
+Theatrical
+Third Wave
+Thirsty
+Thors
+Thrifty
+Tiger-striped
+Time-Tested
+Time-boxed
+Time-honored
+Time-proven
+Time-tested
+Timeless
+Tiny
+Tiny Little
+Tired
+Toasty
+Tobacco-filled
+Toddler-like
+Tony-award-winning
+Totalitarian
+Totally Legal
+Traditional
+Tragic
+Transactional
+Transpiled
+Tropical
+TrueColor
+Turn-based
+Tyrannical
+Tzar-like
+UNIX
+UNIX-like
+Ultra-conservative
+Ultra-liberal
+Ultra-modern
+Ultra-romantic
+Unamerican
+Unbounded
+Unbufferd
+Uncontrollably Hot
+Underbelly of the
+Undercover
+Underestimated
+Underpaid
+Underpriced
+Underrated
+Undersold
+Underworked
+Unelegant
+Unencrypted
+Unethical
+Unexpected
+Unfiltered
+Unholy
+Uninspired
+Uninspiring
+Unintentional
+Uninteresting
+Uniquely American
+Unlawful
+Unmarried
+Unmentionable
+Unofficial
+Unorthodox
+Unprocessed
+Unprofessional
+Unquestionably Odd
+Unrated
+Unrefined
+Unspeakable
+Unstable
+Unstyled
+Unwed
+Unworthy
+Uploadable
+Upset
+Used
+User-facing
+Utopian
+VC-backed
+Vacation-ready
+Vapid
+Vaporwave
+Vegan
+Vegetarian
+Venetian
+Venomous
+Venture-backed
+Venture-based
+Venture-grade
+Very Bleak
+Very Burnt
+Very Exciting
+Very Hot
+Very Loaded
+Very Loose
+Very Normal
+Very Questionable
+Very Tight
+Vibrating
+Victorian
+Video-game-like
+Video-game-style
+Vile
+Violent
+Virtual
+Virtual Private
+Vivacious
+Walrus-like
+Wardrobe-ready
+Wardrobe-sized
+Warm
+Water-cooled
+Wayland
+Weakly-encrypted
+Web-based
+Well-done
+Well-fed
+Well-funded
+Well-oiled
+Wet and Wild
+White-collar
+White-hot
+Widely-acclaimed
+Widely-anticipated
+Wild
+Wildly-inappropriate
+Wildly-unprofessional
+Witchy
+Wooden
+Work-from-home
+World Championship
+Wrinkle-reducing
+X11
+Yearly
+Yoga-powered
+Yoga-ready
+ZSH-like
+Zebra-striped
+Zesty
+Zombie-like
