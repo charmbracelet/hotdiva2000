@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 
 	"github.com/charmbracelet/hotdiva2000"
+	"github.com/charmbracelet/x/exp/ordered"
 	"github.com/dustin/go-humanize"
 	"github.com/mattn/go-runewidth"
 	flag "github.com/spf13/pflag"
@@ -52,6 +53,7 @@ func usage() {
 
 func main() {
 	const (
+		minResults     = 1
 		maxResults     = 1000
 		defaultResults = 1
 	)
@@ -73,11 +75,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	if results < 1 {
-		results = 1
-	} else if results > maxResults {
-		results = maxResults
-	}
+	results = ordered.Clamp(results, minResults, maxResults)
 
 	for i := 0; i < results; i++ {
 		fmt.Println(hotdiva2000.Generate())
