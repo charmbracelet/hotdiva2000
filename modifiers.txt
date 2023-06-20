@@ -66,6 +66,8 @@ Base64-encoded
 Bavarian
 Beach Party
 Beach-ready
+Beast Mode
+Beast-like
 Beastly
 Beautiful
 Beefy
@@ -245,6 +247,7 @@ Drunk
 Dubstep
 Dungeon-like
 Dust-covered
+Dusty Ol
 Dwarvish
 Dynamically-typed
 Dystopian
@@ -309,8 +312,9 @@ Forthcoming
 Free
 FreeBSD
 Fried
-Friend-zoned
 Friendly
+Friendly Little
+Friendzoned
 Frog-like
 Frontend
 Frozen
@@ -347,6 +351,7 @@ Hairy
 Hand-coded
 Handcrafted
 Handsome
+Hangry
 Hard Mode
 Hard-coded
 Heartbroken
@@ -390,7 +395,6 @@ House Music
 Huge
 Humid
 Hungry
-Hunky
 Hyper-masculine
 Hypothetical
 Icy
@@ -764,6 +768,7 @@ Teenage
 Temporary
 Tenacious
 Terminal-based
+Terminal-ready
 Territorial
 Test-driven
 Texas-style
