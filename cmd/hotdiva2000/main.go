@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 
 	"github.com/charmbracelet/hotdiva2000"
+	"github.com/charmbracelet/x/exp/higherorder"
 	"github.com/charmbracelet/x/exp/ordered"
 	"github.com/dustin/go-humanize"
 	"github.com/mattn/go-runewidth"
@@ -37,13 +38,8 @@ func usage() {
 		descs = append(descs, f.Usage)
 	})
 
-	var widestFlag int
-	for _, f := range flags {
-		w := runewidth.StringWidth(f)
-		if w > widestFlag {
-			widestFlag = w
-		}
-	}
+	max := func(a, b int) int { return ordered.Max(a, b) }
+	widestFlag := higherorder.Foldl(max, 0, higherorder.Map(runewidth.StringWidth, flags))
 
 	const gap = 2
 	for i := range flags {

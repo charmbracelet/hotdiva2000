@@ -1,5 +1,7 @@
-github.com/charmbracelet/x/exp/ordered v0.0.0-20230620112114-7466e4b6899c h1:/15PzgJUT9JCzybYfON5awsAwtA9bvNnFU0ET76vJ2A=
-github.com/charmbracelet/x/exp/ordered v0.0.0-20230620112114-7466e4b6899c/go.mod h1:PHXDBVg6d66dpDTqESmefHTluiCgsCWPNtXA6g1ePGU=
+github.com/charmbracelet/x/exp/higherorder v0.0.0-20230620155218-4604d6dfeb24 h1:jncONEBrQRjJ/rvrBWFbtPLVvvVtoJwkniAIKEUYHDc=
+github.com/charmbracelet/x/exp/higherorder v0.0.0-20230620155218-4604d6dfeb24/go.mod h1:XKfeqzsCEQOYuXia7PpLR4M7H871skCMI5KGQ6Z+3/E=
+github.com/charmbracelet/x/exp/ordered v0.0.0-20230620155218-4604d6dfeb24 h1:qsXeCS4m+cGUZ8ijoUigB2gDhPooIeaIQgy3ffkgQcg=
+github.com/charmbracelet/x/exp/ordered v0.0.0-20230620155218-4604d6dfeb24/go.mod h1:PHXDBVg6d66dpDTqESmefHTluiCgsCWPNtXA6g1ePGU=
 github.com/dustin/go-humanize v1.0.1 h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=
 github.com/dustin/go-humanize v1.0.1/go.mod h1:Mu1zIs6XwVuF/gI1OepvI0qD18qycQx+mFykh5fBlto=
 github.com/mattn/go-runewidth v0.0.14 h1:+xnbZSEeDbOIg5/mE6JF0w6n9duR1l3/WmbinWVwUuU=
