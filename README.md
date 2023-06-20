@@ -37,7 +37,7 @@ fmt.Println(hotdiva2000.Generate()) // star-studded-booze-cruise
 
 Use it on the CLI:
 
-```console
+```bash
 # Generate a random string
 hotdiva2000
 
