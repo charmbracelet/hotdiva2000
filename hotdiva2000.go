@@ -35,7 +35,7 @@ var (
 	suffixes  []string = strings.Split(suffixData, "\n")
 
 	// These start with vowels but should not be preceded with "an". Exceptions
-	// will be checked as prefixes, so cases like "uptopia" will also over
+	// will be checked as prefixes, so cases like "uptopia" will also cover
 	// "uptopian".
 	anExceptions = []string{"unix", "utopia"}
 )
