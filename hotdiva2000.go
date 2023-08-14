@@ -1,3 +1,4 @@
+// Package hotdiva2000 provides a human-readable random string generator.
 package hotdiva2000
 
 import (
@@ -71,6 +72,7 @@ func fixArticles(sentence string) string {
 	return strings.Join(words, " ")
 }
 
+// Generate returns a random string.
 func Generate() string {
 	var (
 		prefix = ""
