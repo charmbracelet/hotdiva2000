@@ -93,6 +93,15 @@ func Generate() string {
 	return strings.ToLower(strings.ReplaceAll(output, " ", "-"))
 }
 
+// GenerateN returns a given number of random strings.
+func GenerateN(n int) []string {
+	r := make([]string, n)
+	for i := 0; i < n; i++ {
+		r[i] = Generate()
+	}
+	return r
+}
+
 // Return a number of possible strings produced.
 func Possibilities() (int, int) {
 	low := len(modifiers) * len(nouns)
