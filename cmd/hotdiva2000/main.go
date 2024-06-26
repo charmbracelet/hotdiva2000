@@ -60,7 +60,7 @@ func main() {
 	)
 
 	flag.BoolVarP(&showHelp, "help", "h", false, "Show this help and exit")
-	flag.IntVarP(&results, "results", "r", defaultResults, "Number of results to generate (deafult 1)")
+	flag.IntVarP(&results, "results", "r", defaultResults, "Number of results to generate (default 1)")
 
 	flag.CommandLine.SortFlags = false
 	flag.Usage = usage
