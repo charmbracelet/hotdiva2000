@@ -32,16 +32,23 @@ var nounData string
 var suffixData string
 
 var (
-	prefixes  []string = strings.Split(prefixData, "\n")
-	modifiers []string = strings.Split(modifierData, "\n")
-	nouns     []string = strings.Split(nounData, "\n")
-	suffixes  []string = strings.Split(suffixData, "\n")
+	prefixes  []string
+	modifiers []string
+	nouns     []string
+	suffixes  []string
 
 	// These start with vowels but should not be preceded with "an". Exceptions
 	// will be checked as prefixes, so cases like "uptopia" will also over
 	// "uptopian".
 	anExceptions = []string{"unix", "utopia"}
 )
+
+func init() {
+	prefixes = strings.Split(prefixData, "\n")
+	modifiers = strings.Split(modifierData, "\n")
+	nouns = strings.Split(nounData, "\n")
+	suffixes = strings.Split(suffixData, "\n")
+}
 
 func startsWithVowel(s string) bool {
 	s = strings.ToLower(s)
@@ -74,7 +81,7 @@ func fixArticles(sentence string) string {
 	return strings.Join(words, " ")
 }
 
-// generate returns a random strings.
+// generate returns random strings.
 func generate(opts Options) []string {
 	if opts.Results < 1 {
 		opts.Results = 1
