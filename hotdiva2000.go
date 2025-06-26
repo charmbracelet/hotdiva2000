@@ -107,7 +107,14 @@ func generate(opts Options) []string {
 		mod := modifiers[rand.Intn(len(modifiers))]
 		noun := nouns[rand.Intn(len(nouns))]
 
-		output := fixArticles(prefix + mod + " " + noun + suffix)
+		var builder strings.Builder
+		builder.WriteString(prefix)
+		builder.WriteString(mod)
+		builder.WriteString(" ")
+		builder.WriteString(noun)
+		builder.WriteString(suffix)
+		
+		output := fixArticles(builder.String())
 		r[i] = strings.ToLower(strings.ReplaceAll(output, " ", "-"))
 	}
 
