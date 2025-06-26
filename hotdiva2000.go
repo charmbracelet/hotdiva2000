@@ -5,6 +5,8 @@ import (
 	_ "embed"
 	"math/rand"
 	"strings"
+
+	"github.com/charmbracelet/x/exp/ordered"
 )
 
 //go:generate sort -u modifiers.txt -o modifiers.txt
@@ -13,8 +15,8 @@ import (
 //go:generate sort -u suffix.txt -o suffix.txt
 
 const (
-	prefixThreshold = 0.2
-	suffixThreshold = 0.2
+	defaultPrefixThreshold = 0.2
+	defaultSuffixThreshold = 0.2
 )
 
 //go:embed prefix.txt
@@ -72,39 +74,105 @@ func fixArticles(sentence string) string {
 	return strings.Join(words, " ")
 }
 
+// generate returns a random strings.
+func generate(opts Options) []string {
+	if opts.Results < 1 {
+		opts.Results = 1
+	}
+	opts.PrefixThreshold = ordered.Clamp(opts.PrefixThreshold, 0, 1)
+	opts.SuffixThreshold = ordered.Clamp(opts.SuffixThreshold, 0, 1)
+
+	r := make([]string, opts.Results)
+
+	for i := range r {
+		var (
+			prefix = ""
+			suffix = ""
+		)
+
+		if opts.PrefixThreshold > 0 {
+			if rand.Float64() < defaultPrefixThreshold {
+				prefix = prefixes[rand.Intn(len(prefixes)-1)] + " "
+			}
+		}
+		if opts.SuffixThreshold > 0 {
+			if rand.Float64() < defaultSuffixThreshold {
+				suffix = " " + suffixes[rand.Intn(len(suffixes)-1)]
+			}
+		}
+
+		mod := modifiers[rand.Intn(len(modifiers)-1)]
+		noun := nouns[rand.Intn((len(nouns) - 1))]
+
+		output := fixArticles(prefix + mod + " " + noun + suffix)
+		r[i] = strings.ToLower(strings.ReplaceAll(output, " ", "-"))
+	}
+
+	return r
+}
+
+// Options are options to customize output.
+type Options struct {
+	// Whether to show occasional additional prefix and suffix content. This
+	// increases possibilities but can make strings longer.
+	PrefixThreshold float64
+	SuffixThreshold float64
+
+	// Number of results to generate.
+	Results int
+}
+
 // Generate returns a random string.
 func Generate() string {
-	var (
-		prefix = ""
-		suffix = ""
-	)
-
-	if rand.Float64() < prefixThreshold {
-		prefix = prefixes[rand.Intn(len(prefixes)-1)] + " "
-	}
-	if rand.Float64() < suffixThreshold {
-		suffix = " " + suffixes[rand.Intn(len(suffixes)-1)]
-	}
-
-	mod := modifiers[rand.Intn(len(modifiers)-1)]
-	noun := nouns[rand.Intn((len(nouns) - 1))]
-
-	output := fixArticles(prefix + mod + " " + noun + suffix)
-	return strings.ToLower(strings.ReplaceAll(output, " ", "-"))
+	return generate(Options{
+		PrefixThreshold: defaultPrefixThreshold,
+		SuffixThreshold: defaultSuffixThreshold,
+	})[0]
 }
 
 // GenerateN returns a given number of random strings.
 func GenerateN(n int) []string {
-	r := make([]string, n)
-	for i := 0; i < n; i++ {
-		r[i] = Generate()
-	}
-	return r
+	return generate(Options{
+		PrefixThreshold: defaultPrefixThreshold,
+		SuffixThreshold: defaultSuffixThreshold,
+		Results:         n,
+	})
 }
 
-// Possibilities return a number of possible strings produced.
+// Possibilities returns the number of possible strings produced.
 func Possibilities() (int, int) {
 	low := len(modifiers) * len(nouns)
 	high := low * len(prefixes) * len(suffixes)
+	return low, high
+}
+
+// GenerateWithOptions generates results against the given options.
+func GenerateWithOptions(o Options) []string {
+	return generate(o)
+}
+
+// PossibilitiesWithOptions returns the number of possible strings produced
+// against the given options.
+func PossibilitiesWithOptions(o Options) (int, int) {
+	low := len(modifiers) * len(nouns)
+	high := low
+
+	o.PrefixThreshold = ordered.Clamp(o.PrefixThreshold, 0, 1)
+	o.SuffixThreshold = ordered.Clamp(o.SuffixThreshold, 0, 1)
+
+	if o.PrefixThreshold >= 1 {
+		low *= len(prefixes)
+	}
+	if o.SuffixThreshold >= 1 {
+		low *= len(suffixes)
+	}
+
+	if o.PrefixThreshold > 0 {
+		high *= len(prefixes)
+	}
+	if o.SuffixThreshold > 0 {
+		high *= len(suffixes)
+	}
+
 	return low, high
 }
