@@ -13,8 +13,8 @@ import (
 	flag "github.com/spf13/pflag"
 )
 
-func formatPossibilities() string {
-	low, high := hotdiva2000.Possibilities()
+func formatPossibilities(o hotdiva2000.Options) string {
+	low, high := hotdiva2000.PossibilitiesWithOptions(o)
 	return fmt.Sprintf(
 		"Minimum combinations: %s\nMaximum combinations: %s",
 		humanize.Comma(int64(low)),
@@ -22,9 +22,9 @@ func formatPossibilities() string {
 	)
 }
 
-func usage() {
+func usage(o hotdiva2000.Options) {
 	fmt.Fprintf(os.Stderr, "Usage: %s [FLAGS]", filepath.Base(os.Args[0]))
-	fmt.Fprintf(os.Stderr, "\n\n%s\n\n", formatPossibilities())
+	fmt.Fprintf(os.Stderr, "\n\n%s\n\n", formatPossibilities(o))
 	fmt.Fprintln(os.Stderr, "Options:")
 
 	var flags []string
@@ -56,14 +56,18 @@ func main() {
 
 	var (
 		showHelp bool
-		results  int
+		opts     hotdiva2000.Options
 	)
 
 	flag.BoolVarP(&showHelp, "help", "h", false, "Show this help and exit")
-	flag.IntVarP(&results, "results", "r", defaultResults, "Number of results to generate (default 1)")
+	flag.IntVarP(&opts.Results, "results", "r", defaultResults, "Number of results to generate (default 1)")
+	flag.Float64VarP(&opts.PrefixThreshold, "prefix-threshold", "p", 0.2, "How often to include bonus prefixes (0.2)")
+	flag.Float64VarP(&opts.SuffixThreshold, "suffix-threshold", "s", 0.2, "How often to include bonus suffixes (0.2)")
 
 	flag.CommandLine.SortFlags = false
-	flag.Usage = usage
+	flag.Usage = func() {
+		usage(opts)
+	}
 	flag.Parse()
 
 	if showHelp {
@@ -71,9 +75,10 @@ func main() {
 		os.Exit(1)
 	}
 
-	results = ordered.Clamp(results, minResults, maxResults)
+	opts.Results = ordered.Clamp(opts.Results, minResults, maxResults)
 
-	for i := 0; i < results; i++ {
-		fmt.Println(hotdiva2000.Generate())
+	r := hotdiva2000.GenerateWithOptions(opts)
+	for i := 0; i < len(r); i++ {
+		fmt.Println(r[i])
 	}
 }
