@@ -90,15 +90,11 @@ func generate(opts Options) []string {
 			suffix = ""
 		)
 
-		if opts.PrefixThreshold > 0 {
-			if rand.Float64() < defaultPrefixThreshold {
-				prefix = prefixes[rand.Intn(len(prefixes)-1)] + " "
-			}
+		if opts.PrefixThreshold > 0 && rand.Float64() < opts.PrefixThreshold {
+			prefix = prefixes[rand.Intn(len(prefixes)-1)] + " "
 		}
-		if opts.SuffixThreshold > 0 {
-			if rand.Float64() < defaultSuffixThreshold {
-				suffix = " " + suffixes[rand.Intn(len(suffixes)-1)]
-			}
+		if opts.SuffixThreshold > 0 && rand.Float64() < opts.SuffixThreshold {
+			suffix = " " + suffixes[rand.Intn(len(suffixes)-1)]
 		}
 
 		mod := modifiers[rand.Intn(len(modifiers)-1)]
