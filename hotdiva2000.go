@@ -102,7 +102,7 @@ func GenerateN(n int) []string {
 	return r
 }
 
-// Return a number of possible strings produced.
+// Possibilities return a number of possible strings produced.
 func Possibilities() (int, int) {
 	low := len(modifiers) * len(nouns)
 	high := low * len(prefixes) * len(suffixes)
