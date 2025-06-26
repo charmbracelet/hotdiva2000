@@ -10,14 +10,13 @@
 5G LTE
 8-bit
 80s-style
-AES-Encrypted
-AI
-AR-first
 Abandoned
 Absolute
 Academic
 Ad-hoc-polymorphic
+AES-Encrypted
 Age-defying
+AI
 Air-conditioned
 Air-cooled
 All-knowing
@@ -39,6 +38,7 @@ Anime-style
 Anti-bacterial
 Applicative
 Apres Ski
+AR-first
 Arch-Linux-based
 Arch-Linux-like
 Arguably-bad
@@ -54,9 +54,6 @@ Auto-tuned
 Award-winning
 Awesome
 Awkward
-BSD-based
-BSD-licensed
-BSD-like
 Baby-like
 Bachelor-like
 Backend
@@ -106,6 +103,9 @@ Bruised
 Brushed Metal
 Brutally-accurate
 Brutally-honest
+BSD-based
+BSD-licensed
+BSD-like
 Bubbly
 Buff
 Burnt
@@ -251,11 +251,11 @@ Dusty Ol
 Dwarvish
 Dynamically-typed
 Dystopian
-EDM
 Early 2000s
 Easy Mode
 Economically
 Economy Class
+EDM
 Edwardian
 Eighties
 Eighties-style
@@ -323,8 +323,6 @@ Fully-financed
 Functional
 Funky
 Furry
-GPU-powered
-GTK
 Gas-powered
 Generic
 Gentle
@@ -341,12 +339,14 @@ Gossipy
 Goth
 Government-adjacent
 Government-like
+GPU-powered
 Grammy-award-winning
 Grossly-overestimated
 Grossly-underestimated
 Grossly-undervalued
 Growth-oriented
 Gruesome
+GTK
 Hairy
 Hand-coded
 Handcrafted
@@ -421,9 +421,9 @@ Java-like
 Jealous
 Juicy
 KDE
-KPI-driven
 Killer
 Kinda Bad
+KPI-driven
 Large
 Large and In-charge
 Late 2000s
@@ -456,7 +456,6 @@ Low-class
 Low-quality
 Loyal
 Luscious
-MIT-licensed
 Machiavellian
 Machine Learning
 Machine-like
@@ -494,6 +493,7 @@ Mildly-tarnished
 Millennium
 Minimal
 Misconstrued
+MIT-licensed
 Mixed Martial
 Moderately wealthy
 Moderately-talented
@@ -531,7 +531,6 @@ North American
 Not Cute
 Null
 Numbers-driven
-OKR-driven
 Odd
 Off-Broadway
 Off-the-grid
@@ -539,6 +538,7 @@ Off-the-record
 Offensive
 Official
 Oil-laden
+OKR-driven
 Olive-scented
 Online
 Open-source
@@ -550,15 +550,14 @@ Out-of-tune
 Oven-fresh
 Overclocked
 Overestimated
-Overly-Dramatic
 Overly-dramatic
+Overly-Dramatic
 Overpaid
 Overpriced
 Overrated
 Oversized
 Oversold
 Overworked
-PCI-compliant
 Panther-like
 Parenthetical
 Paris-based
@@ -566,6 +565,7 @@ Parisian-runway
 Parliamentary
 Passionate
 Password Protected
+PCI-compliant
 Perfect
 Perfectly-tailored
 Performance-based
@@ -777,11 +777,11 @@ Thirsty
 Thors
 Thrifty
 Tiger-striped
-Time-Tested
 Time-boxed
 Time-honored
 Time-proven
 Time-tested
+Time-Tested
 Timeless
 Tiny
 Tiny Little
@@ -801,8 +801,6 @@ TrueColor
 Turn-based
 Tyrannical
 Tzar-like
-UNIX
-UNIX-like
 Ultra-conservative
 Ultra-liberal
 Ultra-modern
@@ -830,6 +828,8 @@ Uninspiring
 Unintentional
 Uninteresting
 Uniquely American
+UNIX
+UNIX-like
 Unlawful
 Unmarried
 Unmentionable
@@ -850,10 +850,10 @@ Upset
 Used
 User-facing
 Utopian
-VC-backed
 Vacation-ready
 Vapid
 Vaporwave
+VC-backed
 Vegan
 Vegetarian
 Venetian
@@ -870,6 +870,7 @@ Very Loose
 Very Normal
 Very Questionable
 Very Tight
+Vibe-Coded
 Vibrating
 Victorian
 Video-game-like
@@ -908,7 +909,7 @@ X11
 Yearly
 Yoga-powered
 Yoga-ready
-ZSH-like
 Zebra-striped
 Zesty
 Zombie-like
+ZSH-like
