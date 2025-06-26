@@ -91,14 +91,14 @@ func generate(opts Options) []string {
 		)
 
 		if opts.PrefixThreshold > 0 && rand.Float64() < opts.PrefixThreshold {
-			prefix = prefixes[rand.Intn(len(prefixes)-1)] + " "
+			prefix = prefixes[rand.Intn(len(prefixes))] + " "
 		}
 		if opts.SuffixThreshold > 0 && rand.Float64() < opts.SuffixThreshold {
-			suffix = " " + suffixes[rand.Intn(len(suffixes)-1)]
+			suffix = " " + suffixes[rand.Intn(len(suffixes))]
 		}
 
-		mod := modifiers[rand.Intn(len(modifiers)-1)]
-		noun := nouns[rand.Intn((len(nouns) - 1))]
+		mod := modifiers[rand.Intn(len(modifiers))]
+		noun := nouns[rand.Intn(len(nouns))]
 
 		output := fixArticles(prefix + mod + " " + noun + suffix)
 		r[i] = strings.ToLower(strings.ReplaceAll(output, " ", "-"))
