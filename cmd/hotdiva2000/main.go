@@ -38,7 +38,7 @@ func usage(o hotdiva2000.Options) {
 		descs = append(descs, f.Usage)
 	})
 
-	max := func(a, b int) int { return ordered.Max(a, b) }
+	max := func(a, b int) int { return max(a, b) }
 	widestFlag := higherorder.Foldl(max, 0, higherorder.Map(runewidth.StringWidth, flags))
 
 	const gap = 2

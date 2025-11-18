@@ -1,8 +1,6 @@
 module github.com/charmbracelet/hotdiva2000
 
-go 1.21
-
-toolchain go1.22.5
+go 1.24
 
 require (
 	github.com/charmbracelet/x/exp/higherorder v0.0.0-20240904165849-e8e43e13f84b
