@@ -4,6 +4,16 @@
 3rd Quarter Earnings
 8-Track Player
 A Capella Solo
+AI Company
+AI Job Interview
+AI Startup
+AM Radio
+API Call
+API Endpoint
+API Gateway
+API Key
+AR Headset
+AUR Repository
 Acquihire
 Acquisition
 Activewear
@@ -20,15 +30,11 @@ After School Special
 Agile Coach
 Agile Methodology
 Agile Sprint
-AI Company
-AI Job Interview
-AI Startup
 Aimbot
 Alex
 Algorithm
 All Hands
 All Hands Meeting
-AM Radio
 America
 Americano
 Angel Investment
@@ -38,13 +44,8 @@ Anime
 Anime Network
 Anime Series
 Aperol Spritz
-API Call
-API Endpoint
-API Gateway
-API Key
 Apple Martini
 Applicative Functor
-AR Headset
 Arch Linux Installation
 Arch Linux Live CD
 Archmage
@@ -60,16 +61,15 @@ Associate VC
 Asyncronous Operation
 Athleisurewear Item
 Audio Codec
-AUR Repository
 Autobiography
 Ayman
 Babe
 Baby
 Baby Daddy
 Babygirl
+Bachelor Party
 Bachelor of Arts
 Bachelor of Science
-Bachelor Party
 Bachelorette Party
 Back Alley
 Bagel
@@ -79,8 +79,8 @@ Bank Account
 Bank Loan
 Bank Statement
 Bar Fight
-Bar of Soap
 Bar Owner
+Bar of Soap
 Barbecue
 Bare Metal Server
 Barley Tea
@@ -116,8 +116,8 @@ Blog Engine
 Blog Post
 Board Meeting
 Board Member
-Board of Directors
 Board Vote
+Board of Directors
 Boarding School
 Boat Ride
 Boi
@@ -164,6 +164,18 @@ Business School
 Business Strategy
 C Compiler
 C-Suite
+CD Collection
+CD-ROM
+CEO
+CI Pipeline
+CLI
+CLI Argument
+CLI Arguments
+CPU
+CS Degree
+CS Major
+CS Professor
+CTO
 Cabernet Sauvignon
 Can of Beer
 Canasta Game
@@ -187,11 +199,8 @@ Cat
 Cat Food
 Cat Picture
 Caviar
-CD Collection
-CD-ROM
 Cell Phone
 Cell Tower
-CEO
 Cereal
 Chai Latte
 Champagne Sabre
@@ -205,13 +214,9 @@ Child Actor
 Child Psychologist
 Chiropractor
 Choice
-CI Pipeline
 Cigarette
 Citizen
 Classical Literature
-CLI
-CLI Argument
-CLI Arguments
 Cloud Hosting Service
 Club Diva
 Club Kid
@@ -257,23 +262,21 @@ Cough Syrup
 Cowboy
 Cowgirl
 Coworking Space
-CPU
 Cracking Tool
 Creative Writing Class
 Credit Card
 Credit Card Bill
 Credit Card Number
 Cryptocurrency
-CS Degree
-CS Major
-CS Professor
-CTO
 Cubicle
 Cuisine
 Cup of Slime
 Curry Recipe
 Currywurst
 Cypher
+DJ Controller
+DNS Server
+DVD-ROM
 Dad Bod
 Daddy
 Daily Commute
@@ -305,8 +308,6 @@ Disaster Relief Fund
 Dispensery
 Diva
 Division of Labor
-DJ Controller
-DNS Server
 Doc Comment
 Documentary Film
 Dog
@@ -327,8 +328,8 @@ Driving Test
 Drone Camera
 Drugstore
 Dungeon
-DVD-ROM
 Dynamic Language
+ETF
 Early Beta
 Eclipse Config
 Economy Vehicle
@@ -351,7 +352,6 @@ Employee Onboarding
 Employee Training
 English Major
 Environment Variable
-ETF
 Ethics Discussion
 Evening Gown
 Evening Wear
@@ -362,6 +362,10 @@ Experience Points
 Expletive
 Expression
 Expression Language
+FM Radio
+FORTRAN Compiler
+FORTRAN Program
+FTP Server
 Faang
 Family Meeting
 Fanboy
@@ -392,14 +396,11 @@ Fishmonger
 Fling
 Floor Plan
 Flower Bed
-FM Radio
 Font
 Font Choice
 Food Delivery
 Foreign Key
 Forked Repository
-FORTRAN Compiler
-FORTRAN Program
 Foundational Model
 Franchise
 Frat Party
@@ -409,16 +410,17 @@ French Fry
 French Kiss
 French Riviera
 Friday Night
-FTP Server
 Functional Programmer
 Functor
+GCC Package
+GPU
+GUI
 Gambling Problem
 Game Cartridge
 Game Designer
 Game Dev
 Gas Fire
 Gauntlet
-GCC Package
 General Diva
 Gigabit Connection
 Gigabit Ethernet
@@ -434,15 +436,18 @@ Golang Compiler
 Gold Chain
 Gopher
 Government
-GPU
 Graph Database
 Graphic Designer
 Grocery Delivery Service
 Group SMS
-GUI
 Guitar
 Guy
 Gym Membership
+HDMI Cable
+HR Department
+HR Violation
+HTML
+HTTP Server
 Hacker
 Hacker Movie
 Hackintosh
@@ -461,7 +466,6 @@ Hard Drive
 Hard Fork
 Hash
 Haskell Thing
-HDMI Cable
 Head of Product
 Headmaster
 Heart Container
@@ -480,24 +484,21 @@ Hospitality Career
 Hotel Bar
 House Arrest
 House Music
-House of Pancakes
 House Party
-HR Department
-HR Violation
+House of Pancakes
 Htaccess File
-HTML
-HTTP Server
 Hunk of Metal
 Husbando
 Hush Money
 I Love NY Shirt
 IAP
+ICO
+IDE
+IPO
 Ice Cream
 Ice Spell
 Ice Wand
 Icebreaker
-ICO
-IDE
 If-else Clause
 Image
 Image Editor
@@ -517,29 +518,29 @@ Institutional Investor
 Integer
 Internet
 Internet Connection
-Internet of Things
 Internet Service Provider
+Internet of Things
 Inventory Item
 Investment
 Investment Banker
 Investment Opportunity
 IoT Device
-IPO
 Italo Disco Song
 Izakaya
 J2EE
-Jail
-JavaScript
-JavaScript Error
-Jet Ski
-Jewelry
-Job Interview
 JPEG
 JRPG
 JSON File
 JSON Response
 JVM
 JWT
+Jail
+JavaScript
+JavaScript Error
+Jet Ski
+Jewelry
+Job Interview
+KPI
 Kernel Module
 Kernel Panic
 Key-Value Store
@@ -559,7 +560,7 @@ Kitty
 Kitty Litter
 Knife Set
 Knitware
-KPI
+LLM
 Lady
 Lambda
 Lambrusco
@@ -590,7 +591,6 @@ Lip Gloss
 Lisp
 Literature
 Live Stream
-LLM
 Local Government
 Logfile
 Logo
@@ -598,6 +598,10 @@ Logo Design
 Lover
 Lua Function
 Luvr
+MMORPG
+MP3
+MP3 Collection
+MX Record
 Made Up Job
 Mage
 Magnet Link
@@ -650,7 +654,6 @@ Minister of Finance
 Miscommunication
 Misdemeanor
 Misunderstanding
-MMORPG
 Mobile App
 Mobile Phone
 Mod Chip
@@ -672,12 +675,13 @@ Motel Bar
 Motherboard
 Mouthwash
 Movie Star
-MP3
-MP3 Collection
 Muesli
 Music Festival
-MX Record
 MySQL Database
+NFO File
+NFT
+NFT Collection
+NPC
 Nail Salon
 Nail Technician
 Nameserver
@@ -687,9 +691,6 @@ Nervous Breakdown
 Network Protocol
 New Car
 News Anchor
-NFO File
-NFT
-NFT Collection
 Nice Neighborhood
 Nightly Build
 Nix Attrset
@@ -697,17 +698,16 @@ Nix Expression
 NixOS Installation
 NixOS Server
 No Code Startup
+NoSQL Database
 Non-Fungible Token
 Non-Smoking Section
-NoSQL Database
-NPC
+OKR
 Oauth Token
 Office
 Office Font
 Office Manager
 Office Policy
 Offshore Account
-OKR
 Oligarchy
 Onboarding
 One Hit Wonder
@@ -727,20 +727,21 @@ Outfit
 Oyster Fest
 P2P File Sharing
 P2P Network
+PASCAL Code
+PHP Script
 Pager
+Pair Programming Sesh
 Pair of Cargo Shorts
 Pair of Pants
 Pair of Socks
 Pair of Trousers
 Pair of Yoga Pants
-Pair Programming Sesh
 Panther
 Parole Officer
 Parser Combinator
 Party
 Party Animal
 Party Time
-PASCAL Code
 Passwd File
 Peer Pressure
 Peer Review
@@ -757,7 +758,6 @@ Personal Trainer
 Phone
 Phone Camera
 Photo Shoot
-PHP Script
 Physical Therapist
 Piano Tie
 Piece of Plastic
@@ -822,8 +822,11 @@ QR Code
 Quack
 Quarter Finalist
 Queen
-Radio Station
 RAM Disk
+ROI
+RPG
+RV
+Radio Station
 Ramen Package
 Rando
 Rave
@@ -851,7 +854,6 @@ Road Warrior
 Roadshow
 Rogue
 Rogue-warrior
-ROI
 Role Playing
 Role Playing Game
 Romance
@@ -863,9 +865,19 @@ Room Service
 Roommate
 Root User
 Routing Number
-RPG
 Rustacean
-RV
+SFTP Protocol
+SHA-256 Hash
+SMS
+SMTP Credentials
+SOAP API
+SQL Database
+SQL Error
+SQL Query
+SQLite Database
+SSH Server
+SSL Cert
+SUV
 SaaS Company
 SaaS Product
 Salaryman
@@ -896,8 +908,6 @@ Serial Numbers
 Servant
 Server
 Severance Payment
-SFTP Protocol
-SHA-256 Hash
 Shared Object
 Shell Script
 Shopping Cart
@@ -909,9 +919,6 @@ Small Business Loan
 Small fortune
 Smart Contract
 Smoking Section
-SMS
-SMTP Credentials
-SOAP API
 Soap Opera
 Social Media
 Social Media Marketing
@@ -927,13 +934,7 @@ Spider Monkey
 Spider Plant
 Spilled Coffee
 Spotted Dick
-SQL Database
-SQL Error
-SQL Query
-SQLite Database
 Squirt Gun
-SSH Server
-SSL Cert
 Stack Trace
 Staff Meeting
 Stallion
@@ -977,13 +978,18 @@ Supermodel
 Supply Chain
 Supply Chain Management
 Sushi
-SUV
 Sweatpants
 Switch Statement
 Symlink
 Syntax Tree
 Sysadmin
 System
+TTY
+TUI
+TV Commercial
+TV Series
+TV Show
+TV Star
 Takeover
 Tapas Dish
 Tasting Course
@@ -1012,13 +1018,12 @@ Truck Stop
 True Love
 Trunk Show
 Trust Exercise
-TTY
-TUI
-TV Commercial
-TV Series
-TV Show
-TV Star
 Type of Lisp
+USA
+USB Cable
+USB-C Cable
+UX Design Software
+UX Designer
 Uncooked Ramen
 Undergarment
 Underworld
@@ -1028,23 +1033,23 @@ Unpaid Intern
 Unpriveleged User
 Unspoken Agreement
 Uptime Policy
-USA
-USB Cable
-USB-C Cable
 Used Car
 User Account
-UX Design Software
-UX Designer
+VC Firm
+VHS Tape
+VP of Sales
+VPS
+VR Headset
+VR Policy
+VR Startup
 Vacation
 Valley Start Up
 Vape Juice
 Vape Pen
 Vape Shop
-VC Firm
 Vending Machine
 Venture Capital Firm
 Venture Capitalist
-VHS Tape
 Vibe
 Vice President
 Video Card
@@ -1059,11 +1064,6 @@ Vimrc
 Viral Marketing Video
 Vodka Martini
 Vote of Confidence
-VP of Sales
-VPS
-VR Headset
-VR Policy
-VR Startup
 Wad of Money
 Waifu
 Wardrobe Option
@@ -1098,10 +1098,10 @@ Work Environment
 Workout Program
 Workplace
 Workwear
-Yacht
-Yak Shave
 YAML Error
 YAML File
+Yacht
+Yak Shave
+YoY Growth
 Yoga Mat
 Yoga Studio
-YoY Growth
