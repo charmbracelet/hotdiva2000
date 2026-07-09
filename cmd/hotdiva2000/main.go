@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 
 	"github.com/charmbracelet/hotdiva2000"
+	"github.com/charmbracelet/x/ansi"
 	"github.com/charmbracelet/x/exp/higherorder"
 	"github.com/charmbracelet/x/exp/ordered"
 	"github.com/dustin/go-humanize"
-	"github.com/mattn/go-runewidth"
 	flag "github.com/spf13/pflag"
 )
 
@@ -39,7 +39,7 @@ func usage(o hotdiva2000.Options) {
 	})
 
 	max := func(a, b int) int { return max(a, b) }
-	widestFlag := higherorder.Foldl(max, 0, higherorder.Map(runewidth.StringWidth, flags))
+	widestFlag := higherorder.Foldl(max, 0, higherorder.Map(ansi.StringWidth, flags))
 
 	const gap = 2
 	for i := range flags {
