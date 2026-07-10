@@ -1,6 +1,6 @@
 module github.com/charmbracelet/hotdiva2000
 
-go 1.24.2
+go 1.26.5
 
 require (
 	github.com/charmbracelet/x/ansi v0.11.7
