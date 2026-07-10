@@ -113,13 +113,38 @@ func generate(opts Options) []string {
 		builder.WriteString(" ")
 		builder.WriteString(noun)
 		builder.WriteString(suffix)
-		
+
 		output := fixArticles(builder.String())
-		r[i] = strings.ToLower(strings.ReplaceAll(output, " ", "-"))
+
+		// Apply formatting
+		r[i] = func(in string) string {
+			switch opts.Formatting {
+			case FormatTitle:
+				return in
+			case FormatLowers:
+				return strings.ToLower(in)
+			default:
+				return strings.ToLower(strings.ReplaceAll(in, " ", "-"))
+			}
+		}(output)
 	}
 
 	return r
 }
+
+type Formatting int
+
+const (
+	// FormatSlug formats output in URL-suitable format, e.g. hot-diva. This
+	// is the default.
+	FormatSlug Formatting = iota
+
+	// FormatTitle formats a string in its original title case, e.g. Hot Diva.
+	FormatTitle
+
+	// FormatLowers formats a string lowercase, with spaces, e.g. hot diva.
+	FormatLowers
+)
 
 // Options are options to customize output.
 type Options struct {
@@ -130,6 +155,9 @@ type Options struct {
 
 	// Number of results to generate.
 	Results int
+
+	// How to format the output.
+	Formatting Formatting
 }
 
 // Generate returns a random string.
