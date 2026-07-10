@@ -1,4 +1,4 @@
-module github.com/charmbracelet/hotdiva2000
+module charm.land/hotdiva2000
 
 go 1.26.5
 
