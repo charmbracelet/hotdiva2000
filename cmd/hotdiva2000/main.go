@@ -56,6 +56,7 @@ func main() {
 
 	var (
 		showHelp bool
+		format   string
 		opts     hotdiva2000.Options
 	)
 
@@ -63,6 +64,7 @@ func main() {
 	flag.IntVarP(&opts.Results, "results", "r", defaultResults, "Number of results to generate (default 1)")
 	flag.Float64VarP(&opts.PrefixThreshold, "prefix-threshold", "p", 0.2, "How often to include bonus prefixes (0.2)")
 	flag.Float64VarP(&opts.SuffixThreshold, "suffix-threshold", "s", 0.2, "How often to include bonus suffixes (0.2)")
+	flag.StringVarP(&format, "format", "f", "slug", "Output format: slug, title, or lowers (default slug)")
 
 	flag.CommandLine.SortFlags = false
 	flag.Usage = func() {
@@ -77,8 +79,20 @@ func main() {
 
 	opts.Results = ordered.Clamp(opts.Results, minResults, maxResults)
 
+	switch format {
+	case "slug", "":
+		opts.Formatting = hotdiva2000.FormatSlug
+	case "title":
+		opts.Formatting = hotdiva2000.FormatTitle
+	case "lowers":
+		opts.Formatting = hotdiva2000.FormatLowers
+	default:
+		fmt.Fprintf(os.Stderr, "invalid format %q: must be slug, title, or lowers\n", format)
+		os.Exit(1)
+	}
+
 	r := hotdiva2000.GenerateWithOptions(opts)
-	for i := 0; i < len(r); i++ {
+	for i := range r {
 		fmt.Println(r[i])
 	}
 }
